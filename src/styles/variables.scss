@@ -1,56 +1,32 @@
 // colors
 
 $text-color: #000000;
-$red-color: #ec2d2d;
-$dark-red-color: #cb1717;
-$green-color: #46b650;
-$dark-green-color: #0f8433;
-$dark-gray-color: #4d4d4d;
-$gray-color: rgba(0, 0, 0, 0.4);
-$beige-color: #ecdfd3;
-$dark-beige-color: #d9cabb;
-
-$link-color: #ec2e2e;
-$btn-bg-color: transparent;
-$btn-border-color: #fff;
-$btn-text-color: #fff;
-$header-text-color: #fff;
-$header-nav-color: #fe9389;
-$footer-text-color: rgba(255,255,255,0.4);
-$footer-color: $dark-gray-color;
-$vk-hover-color: #597da3;
-$ok-hover-color: #f58220;
-$email-hover-color: #168de2;
+$orange-color: #f19824;
+$gray-color: #ebebeb;
+$gray-darker-color: #989898;
+$gray-dark-color: #656565;
 
 // typographics
 
-// $font-fam: 'AvenirNext';
-// $font-local: 'AvenirNext';
+$font-fam: 'Exo 2';
+$font-local: 'Exo 2';
 
-// $font-regular-url1: '../fonts/AvenirNext-Regular.woff2';
-// $font-regular-url2: '../fonts/AvenirNext-Regular.woff';
-// $font-regular-weight: 400;
+$font-regular-url1: '../fonts/Exo2-Regular.woff2';
+$font-regular-url2: '../fonts/Exo2-Regular.woff';
+$font-regular-weight: 400;
 
-// $font-medium-url1: '../fonts/AvenirNext-Medium.woff2';
-// $font-medium-url2: '../fonts/AvenirNext-Medium.woff';
-// $font-medium-weight: 500;
-
-// $font-semibold-url1: '../fonts/AvenirNext-DemiBold.woff2';
-// $font-semibold-url2: '../fonts/AvenirNext-DemiBold.woff';
-// $font-semibold-weight: 600;
-
-// $font-bold-url1: '../fonts/AvenirNext-Bold.woff2';
-// $font-bold-url2: '../fonts/AvenirNext-Bold.woff';
-// $font-bold-weight: 700;
+$font-medium-url1: '../fonts/Exo2-Medium.woff2';
+$font-medium-url2: '../fonts/Exo2-Medium.woff';
+$font-medium-weight: 500;
 
 $font-size-base: 18px;
-$font-size-title: 50px;
-$font-size-subtitle: 20px;
-$font-size-header: 16px;
-$font-size-footer: 14px;
+$font-size-title: 28px;
+$font-size-subtitle: 22px;
 
 // media
 
-$screen-sm-min: 768px;
-$screen-md-min: 992px;
-$screen-lg-min: 1200px;
+$screen-xs-min: 480px;
+$screen-sm-min: 840px;
+$screen-md-min: 960px;
+$screen-lg-min: 1280px;
+$screen-xl-min: 1720px;

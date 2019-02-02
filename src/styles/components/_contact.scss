@@ -1,0 +1,16 @@
+.contact {
+	padding: 40px 0;
+	border-top: 1px solid $gray-color;
+
+	@media (min-width: $screen-lg-min) {
+		border: none;
+		padding: 60px 0 220px;
+	}
+
+}
+
+.contact__desc {
+	font-size: 28px;
+	line-height: 42px;
+	margin-bottom: 40px;
+}

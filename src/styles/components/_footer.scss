@@ -1,0 +1,42 @@
+.footer {
+	padding: 40px 0;
+	border-top: 1px solid $gray-color;
+	text-align: center;
+
+	@media (min-width: $screen-sm-min) {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.footer__greatday,
+.footer__socials {
+	margin-bottom: 20px;
+
+	@media (min-width: $screen-sm-min) {
+		margin-bottom: 0;
+	}
+}
+
+.footer__social {
+	opacity: 1;
+	transition: opacity .3s;
+
+	svg {
+		@include size(20px);
+	}
+
+	& + & {
+		margin-left: 15px;
+	}
+
+	&:hover {
+		opacity: .7;
+	}
+}
+
+.footer__copyright {
+	svg {
+		@include size(20px);
+	}
+}

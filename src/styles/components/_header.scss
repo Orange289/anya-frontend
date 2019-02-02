@@ -1,0 +1,53 @@
+.header {
+	padding: 24px 0;
+	margin-bottom: 20px;
+
+	@media (min-width: $screen-sm-min) {
+		padding: 50px 0;
+		margin-bottom: 40px;
+	}
+}
+
+.header__menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	@media (min-width: $screen-sm-min) {
+		justify-content: flex-start;
+	}
+}
+
+.header__logo {
+	svg {
+		@include size(40px, 40px);
+	}
+}
+
+.header__link a {
+	position: relative;
+
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: -5px;
+		left: 0;
+		@include size(0, 2px);
+		background: $orange-color;
+		transition: width .4s;
+	}
+
+	&:hover {
+		&:before {
+			width: 50%;
+		}
+	}
+
+	@media (min-width: $screen-sm-min) {
+		margin-right: 60px;
+	}
+}

@@ -1,0 +1,24 @@
+.fadein {
+	transition: all 1s;
+	transform: translateX(-10000px);
+
+	animation: show 1s ease-out;
+	animation-delay: .5s;
+
+}
+
+@keyframes show {
+
+	0% {
+		opacity: 0;
+	}
+
+	95% {
+		opacity: .7;
+	}
+
+	100% {
+		opacity: 1;
+	}
+
+}

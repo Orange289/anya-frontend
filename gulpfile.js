@@ -27,11 +27,11 @@ var paths = {
 		fonts: 'build/fonts/'
 	},
 	src: {
-		js: 'src/scripts/*.js',
+		js: 'src/scripts/**/*.js',
 		sass: 'src/styles/**/*.scss',
 		sassEntry: 'src/styles/base.scss',
 		html: 'src/templates/*.html',
-		img: 'src/assets/img/*.{png,svg,jpg,gif,ico}',
+		img: 'src/assets/img/*.{png,svg,jpg,gif,ico,webp}',
 		fonts: 'src/assets/fonts/**/*.{woff,woff2}'
 	},
 	watch: {
@@ -40,7 +40,7 @@ var paths = {
 		sass: 'src/styles/**/*.scss',
 		sassEntry: 'src/styles/base.scss',
 		html: 'src/templates/',
-		img: 'src/assets/img/*.{png,svg,jpg,gif,ico}',
+		img: 'src/assets/img/*.{png,svg,jpg,gif,ico,webp}',
 		fonts: 'src/assets/fonts/**/*.{woff,woff2}'
 	},
 	archive: './archive',

@@ -9,5 +9,5 @@ yarn
 
 3. Enjoy! :tada:
 
-> Use `npm start` to zip your project.
+> Use `npm zip` to zip your project.
 
